@@ -1,0 +1,23 @@
+{
+  "name": "package-atom-tongwen",
+  "main": "./lib/tong-wen",
+  "version": "0.0.1",
+  "description": "Atom繁簡轉換(TongWen)",
+  "keywords": [
+  ],
+  "activationCommands": {
+    "atom-workspace": [
+        "TongWen:S2T",
+        "TongWen:T2S",
+        "TongWen:S2T_S",
+        "TongWen:T2S_S"
+    ]
+  },
+  "repository": "https://github.com/foreachsam/package-atom-tongwen.git",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "dependencies": {
+  }
+}

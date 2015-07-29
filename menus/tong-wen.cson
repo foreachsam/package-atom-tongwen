@@ -1,0 +1,38 @@
+# See https://atom.io/docs/latest/hacking-atom-package-word-count#menus for more details
+'context-menu':
+  'atom-text-editor': [
+    {
+      'label': 'TongWen:S2T(簡轉繁)'
+      'command': 'TongWen:S2T'
+    },
+    {
+      'label': 'TongWen:T2S(繁轉簡)'
+      'command': 'TongWen:T2S'
+    }
+  ]
+'menu': [
+  {
+    'label': 'Packages'
+    'submenu': [
+      'label': 'TongWen'
+      'submenu': [
+        {
+          'label': 'S2T(簡轉繁)'
+          'command': 'TongWen:S2T'
+        },
+        {
+          'label': 'T2S(繁轉簡)'
+          'command': 'TongWen:T2S'
+        },
+        {
+          'label': 'S2T_S(簡轉繁_選)'
+          'command': 'TongWen:S2T_S'
+        },
+        {
+          'label': 'T2S_S(繁轉簡_選)'
+          'command': 'TongWen:T2S_S'
+        }
+      ]
+    ]
+  }
+]
