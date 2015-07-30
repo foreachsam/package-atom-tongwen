@@ -31,22 +31,18 @@ module.exports = TongWen =
         tongWenViewState: @tongWenView.serialize()
 
     s2t: ->
-        console.log 'TongWen:s2t'
+        #console.log 'TongWen:s2t'
         if editor = atom.workspace.getActiveTextEditor()
-            old = editor.getText()
-            editor.setText(Util.s2t(old))
+            editor.setText(Util.s2t(editor.getText()))
     t2s: ->
-        console.log 'TongWen:t2s'
+        #console.log 'TongWen:t2s'
         if editor = atom.workspace.getActiveTextEditor()
-            old = editor.getText()
-            editor.setText(Util.t2s(old))
+            editor.setText(Util.t2s(editor.getText()))
     s2t_s: ->
-        console.log 'TongWen:s2t_s'
+        #console.log 'TongWen:s2t_s'
         if editor = atom.workspace.getActiveTextEditor()
-            old = editor.getSelectedText()
-            editor.insertText(Util.s2t(old))
+            editor.insertText(Util.s2t(editor.getSelectedText()))
     t2s_s: ->
-        console.log 'TongWen:t2s_s'
+        #console.log 'TongWen:t2s_s'
         if editor = atom.workspace.getActiveTextEditor()
-            old = editor.getSelectedText()
-            editor.insertText(Util.t2s(old))
+            editor.insertText(Util.t2s(editor.getSelectedText()))

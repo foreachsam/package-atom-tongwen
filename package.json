@@ -1,8 +1,8 @@
 {
   "name": "package-atom-tongwen",
   "main": "./lib/tong-wen",
-  "version": "0.0.1",
-  "description": "Atom繁簡轉換(TongWen)",
+  "version": "0.1.0",
+  "description": "Atom繁簡轉換(使用TongWen新同文堂)",
   "keywords": [
   ],
   "activationCommands": {
