@@ -23,7 +23,7 @@ $ git clone https://github.com/foreachsam/package-atom-tongwen.git TongWen
 $ apm link TongWen
 ```
 
-利用「amp」安裝「Atom Package」的使用方法，可以參考「[這裡](http://foreachsam.github.io/book-editor-atom/book/content/cmd/cmd-apm-init-package.html)」的說明。
+利用「apm」安裝「Atom Package」的使用方法，可以參考「[這裡](http://foreachsam.github.io/book-editor-atom/book/content/cmd/cmd-apm-init-package.html)」的說明。
 
 ## 使用方式
 
