@@ -10,7 +10,13 @@
 建立專案放置資料夾
 
 ``` sh
-$ mkdir ~/Project
+$ mkdir ~/Project/Atom -p
+```
+
+切換到資料夾「~/Project/Atom」
+
+```
+$ cd ~/Project/Atom
 ```
 
 下載「package-atom-tongwen」專案
