@@ -3,7 +3,12 @@
 ## Atom 繁簡轉換 - 使用新同文堂(TongWen)
 
 這個Package的功能，主要是提供「[Atom](https://github.com/atom/atom)」，用來做文字的繁簡轉換。
-「繁簡轉換的核心」，來自「[新同文堂](https://github.com/softcup/New-Tongwentang-for-Web/blob/master/tongwen_core.js)」，移植的「Prototype」可以參考「[prototype-tongwen-nodejs](https://github.com/foreachsam/prototype-tongwen-nodejs)」這個專案。
+
+「繁簡轉換的核心」，來自「[新同文堂](https://github.com/softcup/New-Tongwentang-for-Web/blob/master/tongwen_core.js)」，
+
+移植的「Prototype」可以參考「[prototype-tongwen-nodejs](https://github.com/foreachsam/prototype-tongwen-nodejs)」這個專案。
+
+要使用下指令，批次轉換的方式，可以參考「[package-node-tongwen](https://github.com/foreachsam/package-node-tongwen)」這個專案。
 
 ## 安裝方式
 
