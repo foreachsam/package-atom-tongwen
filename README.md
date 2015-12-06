@@ -10,7 +10,10 @@
 
 要使用下指令，批次轉換的方式，可以參考「[package-node-tongwen](https://github.com/foreachsam/package-node-tongwen)」這個專案。
 
+
 ## 安裝方式
+
+[手冊](http://foreachsam.github.io/book-editor-atom/book/content/howto/tongwen.html)
 
 建立專案放置資料夾
 
